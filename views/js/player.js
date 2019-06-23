@@ -1,6 +1,5 @@
 function playerdetails() {
     var name = document.getElementById("playerform").elements[0].value;
-    alert(name);
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
