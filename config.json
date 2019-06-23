@@ -1,0 +1,10 @@
+{
+    "csv":{
+        "csvPath":"cricket.csv"
+    },
+    "mongo": {
+        "url": "mongodb://localhost:27017/"
+    },
+    "port":5000,
+    "secretkey":"hsbcismine"
+}

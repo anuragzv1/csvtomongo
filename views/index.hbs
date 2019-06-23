@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HSBC CRICKET</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/team.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+  <h2>HSBC frontend</h2>
+  <form action="" onsubmit="return playerdetails();" id="playerform">
+  <div class="form-group">
+      <center><h4>Get player Details (names are case sensitive)</h4></center>
+      
+    <label for="player">Playername</label>
+    <input type="text" class="form-control" name="player" aria-describedby="emailHelp" placeholder="Player name">
+  
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<form action='' onsubmit="return team()" name="teamform">
+  <div class="form-group">
+      <center><h4>GET PLAYERS IN A TEAM(Team name is case sensitive)</h4></center>
+      
+    <label for="team">Enter team</label>
+    <input type="text" class="form-control" name="team" aria-describedby="emailHelp" placeholder="Team Name">
+    
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<center>
+  <div id = "resultsteam"></div>
+  <div id = "resultsplayer"></div>
+</center>
+</div>
+
+</body>
+</html>
